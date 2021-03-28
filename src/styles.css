@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+  margin: 0;
+  font-family: 'Lora', serif;
+}
+.navbar{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-style: none;
+}
+
+.navbar h1,h2{
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.navbar-right-side{
+    display: flex;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+.navbar-right-side h2{
+    padding-right: 5%;
+    white-space: nowrap;
+    
+
+}
