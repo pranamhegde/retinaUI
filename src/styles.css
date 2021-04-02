@@ -14,6 +14,8 @@ body{
 
 .navbar a{
     font-style: none;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar h1,h2{
@@ -30,6 +32,21 @@ body{
 .navbar-right-side h2{
     padding-right: 5%;
     white-space: nowrap;
-    
+}
 
+.homepage-content{
+    text-align:center ;
+}
+
+.homepage-content h1{
+    font-size: xxx-large;
+}
+
+.homepage-buttons button{
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
 }
