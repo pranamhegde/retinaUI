@@ -50,3 +50,8 @@ body{
     border-radius: 20px;
     cursor: pointer;
 }
+
+.homepage-buttons a{
+    color:black;
+    text-decoration: none;
+}
