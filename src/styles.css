@@ -5,6 +5,12 @@ body{
   font-family: 'Lora', serif;
   overflow-x: hidden;
 }
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
 .navbar{
     color: white;
     background-color: black;
@@ -58,4 +64,56 @@ button:focus {
 .homepage-buttons a{
     color:black;
     text-decoration: none;
+}
+
+.docspage-content{
+    display: flex;
+}
+
+.docspage-content button{
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.docspage-content button a{
+    color:black;
+    text-decoration: none;
+}
+
+.vertical-leftside-index{
+
+}
+
+.vertical-leftside-index{
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.vertical-leftside-index p{
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.vertical-leftside-index h3{
+    margin: 0;
+    padding: 0;
+}
+
+.documentation{
+    text-align: center;
+    min-width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.codesnippet-box{
+    background-color: silver;
+    min-height: 100px;
+    padding: 0.5%;
 }
