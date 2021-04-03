@@ -42,11 +42,15 @@ body{
     font-size: xxx-large;
 }
 
+button:focus {
+    outline: none;
+}
+
 .homepage-buttons button{
     padding: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    border: 2px solid black;
+    border: none;
     border-radius: 20px;
     cursor: pointer;
 }
