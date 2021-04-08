@@ -116,4 +116,17 @@ button:focus {
     background-color: silver;
     min-height: 100px;
     padding: 0.5%;
+    box-shadow: 5px 10px 8px rgb(231 220 220);
+}
+
+.docspage-content .copy-btn{
+    float: right;
+    padding: 1% 2% 1% 2%;
+    background-color: rgb(5, 138, 226);
+    
+}
+
+.copy-btn img{
+    width: 10%;
+    cursor: pointer;
 }
