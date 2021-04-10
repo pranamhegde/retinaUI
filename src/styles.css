@@ -130,3 +130,17 @@ button:focus {
     width: 10%;
     cursor: pointer;
 }
+
+.alert-box{
+    padding: 0.5%;
+    margin: 1% 0 1% 0;
+    border: 1px solid black;
+}
+
+.light-green{
+    background-color: lightgreen;
+}
+
+.light-blue{
+    background-color: lightblue;
+}
