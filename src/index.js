@@ -1,11 +1,17 @@
 var installationCodesnippet = document.getElementById('installation-codesnippet');
-var alertBoxLightGreenCodesnippet = document.getElementById('alert-box-light-green-codesnippet');
 var alertBoxLightBlueCodesnippet = document.getElementById('alert-box-light-blue-codesnippet');
+var alertBoxLightGreenCodesnippet = document.getElementById('alert-box-light-green-codesnippet');
+var alertBoxLightGreyCodesnippet = document.getElementById('alert-box-light-grey-codesnippet');
+var alertBoxLightGoldenYellowCodesnippet = document.getElementById('alert-box-light-golden-yellow-codesnippet')
 
 
-installationCodesnippet.innerText = '<link rel="stylesheet" href="https://retinaui.netlify.app/public/base.css">';
-alertBoxLightGreenCodesnippet.innerText = '\t\t<div class="alert-box light-green"> \n  <p>Alert Box</p>\n</div>';
-alertBoxLightBlueCodesnippet.innerText = '\t\t<div class="alert-box light-blue"> \n  <p>Alert Box</p>\n</div>';
+
+installationCodesnippet.innerText = '\n<link rel="stylesheet" href="https://retinaui.netlify.app/public/base.css">';
+alertBoxLightBlueCodesnippet.innerText = '\n<div class="alert-box light-blue"> \n  <p>Alert Box</p>\n</div>';
+alertBoxLightGreenCodesnippet.innerText = '\n<div class="alert-box light-green"> \n  <p>Alert Box</p>\n</div>';
+alertBoxLightGreyCodesnippet.innerText = '\n<div class="alert-box light-grey"> \n  <p>Alert Box</p>\n</div>';
+alertBoxLightGoldenYellowCodesnippet.innerText = '\n<div class="alert-box light-golden-yellow"> \n  <p>Alert Box</p>\n</div>'
+
 
 const copyText = (HTMLElement) =>{
     if(!HTMLElement){
@@ -35,20 +41,32 @@ const copyToCopied = (HTMLElement) =>{
 
 
 //For the Installation Element
-document.getElementById('copy-btn-installation-codesnippet').onclick = () => {
+document.getElementById('btn-copy-installation-codesnippet').onclick = () => {
     copyText(installationCodesnippet);
-    copyToCopied(document.getElementById('copy-btn-installation-codesnippet'));
+    copyToCopied(document.getElementById('btn-copy-installation-codesnippet'));
 
-}
-
-//For light green alert box
-document.getElementById('copy-alert-box-light-green-codesnippet').onclick = () => {
-    copyText(alertBoxLightGreenCodesnippet);
-    copyToCopied(document.getElementById('copy-alert-box-light-green-codesnippet'));
 }
 
 //For light blue alert box
-document.getElementById('copy-alert-box-light-blue-codesnippet').onclick = () => {
+document.getElementById('btn-copy-alert-box-light-blue-codesnippet').onclick = () => {
     copyText(alertBoxLightBlueCodesnippet);
-    copyToCopied(document.getElementById('copy-alert-box-light-blue-codesnippet'));
+    copyToCopied(document.getElementById('btn-copy-alert-box-light-blue-codesnippet'));
+}
+
+//For light green alert box
+document.getElementById('btn-copy-alert-box-light-green-codesnippet').onclick = () => {
+    copyText(alertBoxLightGreenCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-alert-box-light-green-codesnippet'));
+}
+
+//For light grey alert box
+document.getElementById('btn-copy-alert-box-light-grey-codesnippet').onclick = () => {
+    copyText(alertBoxLightGreyCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-alert-box-light-grey-codesnippet'));
+}
+
+//For light golden yellow alert box
+document.getElementById('btn-copy-alert-box-light-golden-yellow-codesnippet').onclick = () => {
+    copyText(alertBoxLightGoldenYellowCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-alert-box-light-golden-yellow-codesnippet'));
 }

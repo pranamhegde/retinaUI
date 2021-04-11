@@ -137,10 +137,18 @@ button:focus {
     border: 1px solid black;
 }
 
+.light-blue{
+    background-color: lightblue;
+}
+
 .light-green{
     background-color: lightgreen;
 }
 
-.light-blue{
-    background-color: lightblue;
+.light-grey{
+    background-color: lightgray;
+}
+
+.light-golden-yellow{
+    background-color: lightgoldenrodyellow;
 }

@@ -1,3 +1,22 @@
 button:focus {
     outline: none;
 }
+
+.alert-box{
+    padding: 0.5%;
+    margin: 1% 0 1% 0;
+    border: 1px solid black;
+}
+
+.light-blue{
+    background-color: lightblue;
+}
+
+.light-green{
+    background-color: lightgreen;
+}
+
+
+.light-golden-yellow{
+    background-color: lightgoldenrodyellow;
+}
