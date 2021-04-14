@@ -114,7 +114,7 @@ button:focus {
 
 .codesnippet-box{
     background-color: silver;
-    min-height: 100px;
+    min-height: 150px;
     padding: 0.5%;
     box-shadow: 5px 10px 8px rgb(231 220 220);
 }
@@ -149,6 +149,13 @@ button.button-secondary{
     border: 1px solid #3b70ff;
 }
 
+.card-box{
+    
+    margin: auto;
+    width: 50%;
+    padding: 1%;
+    box-shadow:  5px 10px 8px rgb(231 220 220);;
+}
 
 .light-blue{
     background-color: lightblue;

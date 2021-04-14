@@ -5,17 +5,23 @@ var alertBoxLightGreyCodesnippet = document.getElementById('alert-box-light-grey
 var alertBoxLightGoldenYellowCodesnippet = document.getElementById('alert-box-light-golden-yellow-codesnippet');
 var buttonPrimaryCodesnippet = document.getElementById('button-primary-codesnippet');
 var buttonSecondaryCodesnippet = document.getElementById('button-secondary-codesnippet');
+var cardBoxCodesnippet = document.getElementById('card-box-codesnippet');
 
 
 
 
-installationCodesnippet.innerText = '\n<link rel="stylesheet" href="https://retinaui.netlify.app/public/base.css">';
-alertBoxLightBlueCodesnippet.innerText = '\n<div class="alert-box light-blue"> \n  <p>Alert Box</p>\n</div>';
-alertBoxLightGreenCodesnippet.innerText = '\n<div class="alert-box light-green"> \n  <p>Alert Box</p>\n</div>';
-alertBoxLightGreyCodesnippet.innerText = '\n<div class="alert-box light-grey"> \n  <p>Alert Box</p>\n</div>';
-alertBoxLightGoldenYellowCodesnippet.innerText = '\n<div class="alert-box light-golden-yellow"> \n  <p>Alert Box</p>\n</div>';
-buttonPrimaryCodesnippet.innerText = '\n<button class="button-primary">Home</button>\n';
-buttonSecondaryCodesnippet.innerText = '\n<button class="button-secondary">Home</button>\n';
+installationCodesnippet.innerText = '\n\n<link rel="stylesheet" href="https://retinaui.netlify.app/public/base.css">';
+alertBoxLightBlueCodesnippet.innerText = '\n\n<div class="alert-box light-blue"> \n  <p>Alert Box</p>\n</div>';
+alertBoxLightGreenCodesnippet.innerText = '\n\n<div class="alert-box light-green"> \n  <p>Alert Box</p>\n</div>';
+alertBoxLightGreyCodesnippet.innerText = '\n\n<div class="alert-box light-grey"> \n  <p>Alert Box</p>\n</div>';
+alertBoxLightGoldenYellowCodesnippet.innerText = '\n\n<div class="alert-box light-golden-yellow"> \n  <p>Alert Box</p>\n</div>';
+buttonPrimaryCodesnippet.innerText = '\n\n<button class="button-primary">Home</button>\n';
+buttonSecondaryCodesnippet.innerText = '\n\n<button class="button-secondary">Home</button>\n';
+cardBoxCodesnippet.innerText = `\n\n <div class="card-box"> \n 
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum has been the industry's standard dummy 
+text ever since\n the 1500s, when an unknown printer took a galley of type and scrambled \n  it to make a type specimen book.
+ </p>\n  </div> `;
+
 
 const copyText = (HTMLElement) =>{
     if(!HTMLElement){
@@ -85,4 +91,10 @@ document.getElementById('btn-copy-button-primary-codesnippet').onclick = () => {
 document.getElementById('btn-copy-button-secondary-codesnippet').onclick = () => {
     copyText(buttonSecondaryCodesnippet);
     copyToCopied(document.getElementById('btn-copy-button-secondary-codesnippet'));
+}
+
+//For Card Box
+document.getElementById('btn-copy-card-box-codesnippet').onclick = () => {
+    copyText(cardBoxCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-card-box-codesnippet'));
 }

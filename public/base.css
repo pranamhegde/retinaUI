@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Lora', serif;
+    overflow-x: hidden;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.alert-box{
+    padding: 0.5%;
+    margin: 1% 0 1% 0;
+    border: 1px solid black;
+}
+
 button:focus {
     outline: none;
 }
@@ -25,10 +57,13 @@ button.button-secondary{
     border: 1px solid #3b70ff;
 }
 
-.alert-box{
-    padding: 0.5%;
-    margin: 1% 0 1% 0;
-    border: 1px solid black;
+
+.card-box{
+    
+    margin: auto;
+    width: 50%;
+    padding: 1%;
+    box-shadow:  5px 10px 8px rgb(231 220 220);;
 }
 
 .light-blue{
