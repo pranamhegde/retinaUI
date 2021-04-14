@@ -6,7 +6,7 @@ var alertBoxLightGoldenYellowCodesnippet = document.getElementById('alert-box-li
 var buttonPrimaryCodesnippet = document.getElementById('button-primary-codesnippet');
 var buttonSecondaryCodesnippet = document.getElementById('button-secondary-codesnippet');
 var cardBoxCodesnippet = document.getElementById('card-box-codesnippet');
-
+var inputBoxCodesnippet = document.getElementById('input-box-codesnippet');
 
 
 
@@ -21,6 +21,7 @@ cardBoxCodesnippet.innerText = `\n\n <div class="card-box"> \n
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.\nLorem Ipsum has been the industry's standard dummy 
 text ever since\n the 1500s, when an unknown printer took a galley of type and scrambled \n  it to make a type specimen book.
  </p>\n  </div> `;
+inputBoxCodesnippet.innerText = '\n\n<input class="input-box" type="text" placeholder="Name">\n';
 
 
 const copyText = (HTMLElement) =>{
@@ -97,4 +98,10 @@ document.getElementById('btn-copy-button-secondary-codesnippet').onclick = () =>
 document.getElementById('btn-copy-card-box-codesnippet').onclick = () => {
     copyText(cardBoxCodesnippet);
     copyToCopied(document.getElementById('btn-copy-card-box-codesnippet'));
+}
+
+//For input box
+document.getElementById('btn-copy-input-box-codesnippet').onclick = () => {
+    copyText(inputBoxCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-input-box-codesnippet'));
 }
