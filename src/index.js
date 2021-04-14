@@ -2,7 +2,10 @@ var installationCodesnippet = document.getElementById('installation-codesnippet'
 var alertBoxLightBlueCodesnippet = document.getElementById('alert-box-light-blue-codesnippet');
 var alertBoxLightGreenCodesnippet = document.getElementById('alert-box-light-green-codesnippet');
 var alertBoxLightGreyCodesnippet = document.getElementById('alert-box-light-grey-codesnippet');
-var alertBoxLightGoldenYellowCodesnippet = document.getElementById('alert-box-light-golden-yellow-codesnippet')
+var alertBoxLightGoldenYellowCodesnippet = document.getElementById('alert-box-light-golden-yellow-codesnippet');
+var buttonPrimaryCodesnippet = document.getElementById('button-primary-codesnippet');
+var buttonSecondaryCodesnippet = document.getElementById('button-secondary-codesnippet');
+
 
 
 
@@ -10,8 +13,9 @@ installationCodesnippet.innerText = '\n<link rel="stylesheet" href="https://reti
 alertBoxLightBlueCodesnippet.innerText = '\n<div class="alert-box light-blue"> \n  <p>Alert Box</p>\n</div>';
 alertBoxLightGreenCodesnippet.innerText = '\n<div class="alert-box light-green"> \n  <p>Alert Box</p>\n</div>';
 alertBoxLightGreyCodesnippet.innerText = '\n<div class="alert-box light-grey"> \n  <p>Alert Box</p>\n</div>';
-alertBoxLightGoldenYellowCodesnippet.innerText = '\n<div class="alert-box light-golden-yellow"> \n  <p>Alert Box</p>\n</div>'
-
+alertBoxLightGoldenYellowCodesnippet.innerText = '\n<div class="alert-box light-golden-yellow"> \n  <p>Alert Box</p>\n</div>';
+buttonPrimaryCodesnippet.innerText = '\n<button class="button-primary">Home</button>\n';
+buttonSecondaryCodesnippet.innerText = '\n<button class="button-secondary">Home</button>\n';
 
 const copyText = (HTMLElement) =>{
     if(!HTMLElement){
@@ -69,4 +73,16 @@ document.getElementById('btn-copy-alert-box-light-grey-codesnippet').onclick = (
 document.getElementById('btn-copy-alert-box-light-golden-yellow-codesnippet').onclick = () => {
     copyText(alertBoxLightGoldenYellowCodesnippet);
     copyToCopied(document.getElementById('btn-copy-alert-box-light-golden-yellow-codesnippet'));
+}
+
+//For Primary Button
+document.getElementById('btn-copy-button-primary-codesnippet').onclick = () => {
+    copyText(buttonPrimaryCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-button-primary-codesnippet'));
+}
+
+//For Secondary Button
+document.getElementById('btn-copy-button-secondary-codesnippet').onclick = () => {
+    copyText(buttonSecondaryCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-button-secondary-codesnippet'));
 }

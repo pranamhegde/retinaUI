@@ -137,6 +137,19 @@ button:focus {
     border: 1px solid black;
 }
 
+button.button-primary{
+    color:white;
+    background-color: #3b70ff;
+    border: 1px solid #3b70ff;
+}
+
+button.button-secondary{
+    color:  #3b70ff;
+    background-color: white;
+    border: 1px solid #3b70ff;
+}
+
+
 .light-blue{
     background-color: lightblue;
 }
@@ -152,3 +165,4 @@ button:focus {
 .light-golden-yellow{
     background-color: lightgoldenrodyellow;
 }
+

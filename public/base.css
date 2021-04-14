@@ -2,6 +2,29 @@ button:focus {
     outline: none;
 }
 
+button{
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+}
+
+button.button-primary{
+    color:white;
+    background-color: #3b70ff;
+    border: 1px solid #3b70ff;
+}
+
+button.button-secondary{
+    color:  #3b70ff;
+    background-color: white;
+    border: 1px solid #3b70ff;
+}
+
 .alert-box{
     padding: 0.5%;
     margin: 1% 0 1% 0;
