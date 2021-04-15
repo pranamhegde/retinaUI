@@ -130,6 +130,7 @@ button:focus {
 .vertical-leftside-index h3{
     margin: 0;
     padding: 0;
+    padding-top: 10%;
 }
 
 .documentation{

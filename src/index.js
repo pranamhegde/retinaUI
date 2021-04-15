@@ -9,6 +9,7 @@ var cardBoxCodesnippet = document.getElementById('card-box-codesnippet');
 var inputBoxCodesnippet = document.getElementById('input-box-codesnippet');
 var listUnorderedCodesnippet = document.getElementById('list-unordered-codesnippet');
 var listOrderedCodesnippet = document.getElementById('list-ordered-codesnippet');
+var navigationBarCodesnippet = document.getElementById('navigation-bar-codesnippet');
 
 
 
@@ -26,6 +27,7 @@ text ever since\n the 1500s, when an unknown printer took a galley of type and s
 inputBoxCodesnippet.innerText = '\n\n<input class="input-box" type="text" placeholder="Name">\n';
 listUnorderedCodesnippet.innerText = `\n\n <ul class="list-unordered"> \n<li>First Element</li> \n<li>Second Element</li> \n<li>Third Element</li> \n</ul>`;
 listOrderedCodesnippet.innerText = `\n\n <ol class="list-ordered"> \n<li>First Element</li> \n<li>Second Element</li> \n<li>Third Element</li> \n</ol>`;
+navigationBarCodesnippet.innerText = `\n\n <nav class="navbar"> \n<h1><a href="#">Home</a></h1> \n<div class="navbar-right-side"> \n<h2><a href="#">About</a></h2> \n<h2><a href="#">Careers</a></h2> \n<h2><a href="#" target="_blank">External Link</a></h2> \n</div> \n</nav>`
 
 
 
@@ -121,4 +123,10 @@ document.getElementById('btn-copy-list-unordered-codesnippet').onclick = () => {
 document.getElementById('btn-copy-list-ordered-codesnippet').onclick = () => {
     copyText(listOrderedCodesnippet);
     copyToCopied(document.getElementById('btn-copy-list-ordered-codesnippet'));
+}
+
+//For navbar
+document.getElementById('btn-copy-navigation-bar-codesnippet').onclick = () => {
+    copyText(navigationBarCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-navigation-bar-codesnippet'));
 }
