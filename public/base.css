@@ -84,6 +84,39 @@ button.button-secondary{
 }
 
 
+.navbar{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar h1,h2{
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.navbar-right-side{
+    display: flex;
+    padding-top: 1%;
+    padding-right: 2%;
+}
+
+.navbar-right-side h2{
+    padding-right: 5%;
+    white-space: nowrap;
+}
+
+.homepage-content{
+    text-align:center ;
+}
+
 .light-blue{
     background-color: lightblue;
 }
