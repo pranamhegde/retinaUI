@@ -7,6 +7,8 @@ var buttonPrimaryCodesnippet = document.getElementById('button-primary-codesnipp
 var buttonSecondaryCodesnippet = document.getElementById('button-secondary-codesnippet');
 var cardBoxCodesnippet = document.getElementById('card-box-codesnippet');
 var inputBoxCodesnippet = document.getElementById('input-box-codesnippet');
+var listUnorderedCodesnippet = document.getElementById('list-unordered-codesnippet');
+var listOrderedCodesnippet = document.getElementById('list-ordered-codesnippet');
 
 
 
@@ -22,6 +24,9 @@ cardBoxCodesnippet.innerText = `\n\n <div class="card-box"> \n
 text ever since\n the 1500s, when an unknown printer took a galley of type and scrambled \n  it to make a type specimen book.
  </p>\n  </div> `;
 inputBoxCodesnippet.innerText = '\n\n<input class="input-box" type="text" placeholder="Name">\n';
+listUnorderedCodesnippet.innerText = `\n\n <ul class="list-unordered"> \n<li>First Element</li> \n<li>Second Element</li> \n<li>Third Element</li> \n</ul>`;
+listOrderedCodesnippet.innerText = `\n\n <ol class="list-ordered"> \n<li>First Element</li> \n<li>Second Element</li> \n<li>Third Element</li> \n</ol>`;
+
 
 
 const copyText = (HTMLElement) =>{
@@ -104,4 +109,16 @@ document.getElementById('btn-copy-card-box-codesnippet').onclick = () => {
 document.getElementById('btn-copy-input-box-codesnippet').onclick = () => {
     copyText(inputBoxCodesnippet);
     copyToCopied(document.getElementById('btn-copy-input-box-codesnippet'));
+}
+
+//For list unordered
+document.getElementById('btn-copy-list-unordered-codesnippet').onclick = () => {
+    copyText(listUnorderedCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-list-unordered-codesnippet'));
+}
+
+//For list ordered
+document.getElementById('btn-copy-list-ordered-codesnippet').onclick = () => {
+    copyText(listOrderedCodesnippet);
+    copyToCopied(document.getElementById('btn-copy-list-ordered-codesnippet'));
 }

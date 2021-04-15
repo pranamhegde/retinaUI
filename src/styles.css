@@ -193,6 +193,23 @@ button.button-secondary{
     outline: none;
 }
 
+.list-unordered{
+    list-style: none;
+}
+
+.list-unordered li{
+    padding: 10px 0 10px 0;
+}
+
+.list-ordered{
+
+}
+
+.list-ordered li{
+    padding: 10px 0 10px 0;
+}
+
+
 .light-blue{
     background-color: lightblue;
 }
