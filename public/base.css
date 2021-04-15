@@ -117,6 +117,42 @@ button.button-secondary{
     text-align:center ;
 }
 
+
+.progress-bar{
+    min-height: 20px;
+    padding-top: 2%;
+}
+
+.progress-bar-25{
+    margin-top: 2%;
+    width:25%;
+    height: 20px;
+    background-color: #3b70ff;
+    
+}
+
+.progress-bar-50{
+    margin-top: 2%;
+    width:50%;
+    height: 20px;
+    background-color: #3b70ff;
+}
+
+.progress-bar-75{
+    margin-top: 2%;
+    width:75%;
+    height: 20px;
+    background-color: #3b70ff;
+}
+
+.progress-bar-100{
+    margin-top: 2%;
+    width:100%;
+    height: 20px;
+    background-color: #3b70ff;
+}
+
+
 .light-blue{
     background-color: lightblue;
 }
